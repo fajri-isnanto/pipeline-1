@@ -8,7 +8,7 @@ pipeline {
                 git 'https://github.com/fajri-isnanto/pipeline-1.git'
 
                 // Print a message
-                echo 'Building your project...'
+                echo 'build finished'
             }
         }
 
