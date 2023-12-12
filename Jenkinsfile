@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Checkout the source code
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/fajri-isnanto/pipeline-1.git'
 
                 // Print a message
                 echo 'Building your project...'
